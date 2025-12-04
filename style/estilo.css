@@ -30,17 +30,24 @@ img {
     gap: 1rem;
 }
 
-#principal-conteudo-titulo {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 0.5rem;
-}
-
 #principal-conteudo h1,
 #principal-conteudo h2 {
     font-family: var(--fonte-primaria);
     font-weight: 700;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+#principal-conteudo-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+#principal-conteudo-titulo h1 {
+    width: 400px;
+    text-align: center;
 }
 
 /*#principal-conteudo h2 {
@@ -67,5 +74,5 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 6rem;
 }
