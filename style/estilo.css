@@ -22,7 +22,7 @@ img {
 }
 
 #topo {
-    padding: 20px 0px 20px 250px;
+    padding: 20px 0px 20px 150px;
 }
 
 #topo-menu {
@@ -64,7 +64,7 @@ img {
 }
 
 #principal-conteudo-titulo h1 {
-    width: 400px;
+    width: 650px;
     text-align: center;
 }
 
@@ -93,4 +93,15 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 6rem;
+}
+
+#rodape {
+    display: flex;
+    justify-content: center;
+    align-items: end;   
+}
+
+#rodape p {
+    padding-top: 20px;
+    font-family: var(--fonte-primaria);
 }
