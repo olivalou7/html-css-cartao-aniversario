@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+US+Trad+Guides&display=swap');
+
+:root {
+    --cor-primaria: #FEEE91;
+    --cor-secundaria: #8CE4FF;
+    --cor-terciaria: #FF5656;
+    --cor-quartenaria: #FFA239;
+
+    --fonte-primaria:  "Dancing Script", coursive;
+    --fonte-secundaria:  "Playwrite US Trad Guides", coursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#principal-conteudo h1,
+#principal-conteudo h2 {
+    font-family: var(--fonte-primaria);
+}
+
+#principal-conteudo-mensagem p {
+    font-family: var(--fonte-secundaria);
+}
+
