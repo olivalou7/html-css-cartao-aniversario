@@ -21,6 +21,24 @@ img {
     height: auto;
 }
 
+#topo {
+    padding: 20px 0px 20px 250px;
+}
+
+#topo-menu {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+#topo-menu li a {
+    text-decoration: none;
+    font-family: var(--fonte-primaria);
+}
+
+
+
 #principal-conteudo {
     padding: 5rem;
     display: flex;
