@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+main {
+    background-color: var(--cor-primaria);
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -23,6 +27,7 @@ img {
 
 #topo {
     padding: 20px 0px 20px 150px;
+    background-color: var(--cor-secundaria);
 }
 
 #topo-menu {
@@ -35,6 +40,8 @@ img {
 #topo-menu li a {
     text-decoration: none;
     font-family: var(--fonte-primaria);
+    font-size: 1.3rem;
+    color: var(--cor-primaria);
 }
 
 
@@ -54,6 +61,7 @@ img {
     font-weight: 700;
     padding-bottom: 2rem;
     font-size: 2rem;
+    color: var(--cor-secundaria);
 }
 
 #principal-conteudo-titulo {
@@ -98,10 +106,13 @@ img {
 #rodape {
     display: flex;
     justify-content: center;
-    align-items: end;   
+    align-items: end;
+    background-color: var(--cor-secundaria);
 }
 
 #rodape p {
     padding-top: 20px;
     font-family: var(--fonte-primaria);
+    font-size: 1.3rem;
+    color: var(--cor-primaria);
 }
