@@ -44,6 +44,10 @@ img {
     color: var(--cor-primaria);
 }
 
+#topo-menu li a:hover {
+    color: var(--cor-terciaria);
+}
+
 
 
 #principal-conteudo {
@@ -88,6 +92,7 @@ img {
 
 #principal-conteudo-mensagem p {
     font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
 }
 
 #principal-conteudo-fotos {
@@ -115,4 +120,8 @@ img {
     font-family: var(--fonte-primaria);
     font-size: 1.3rem;
     color: var(--cor-primaria);
+}
+
+#rodape p:hover {
+    color: var(--cor-terciaria);
 }
